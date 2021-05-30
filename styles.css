@@ -60,7 +60,9 @@ a:link /*unvisited link*/ {
     border-radius:10px;
 }
 .title{
-    text-align:center;
+    margin:0 auto;
+    padding-top:5px;
+    width: 300px;
     font-style:italic;
 }
 .box3{
@@ -69,16 +71,14 @@ a:link /*unvisited link*/ {
     padding:8px 9px 8px 5px;
 }
 .navigationbar{
-    padding: 0px 10px 0px 10px;
-    border: 5px 10px 5px 10px;
-    margin: 15px 0px 35px 0px;
-    border-radius:10px;
+    padding: 5px 0px 5px 0px;
+    border: 5px;
+    margin: 10px 0px 10px 0px;
+    border-radius:5px;
     background-color:darksalmon;
 }
-#navigation{
-    list-style-type:none;
-    margin:0;
-    padding:0;
+#navigation li{
+    margin:5px;
     display: inline;
 }
 
